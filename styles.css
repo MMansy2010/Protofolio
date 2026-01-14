@@ -212,6 +212,13 @@ header {
   width: 85%;
 }
 
+.progress-line .php {
+  width: 60%;
+}
+.progress-line .sql {
+  width: 55%;
+}
+
 .bar .progress-line span::before {
   position: absolute;
   content: "";
@@ -252,6 +259,13 @@ header {
 }
 .progress-line .python::after {
   content: "85%";
+}
+
+.progress-line .php::after {
+  content: "60%";
+}
+.progress-line .sql::after {
+  content: "55%";
 }
 
 .navbar.solid {
